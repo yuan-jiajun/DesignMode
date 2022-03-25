@@ -9,6 +9,11 @@ public class Client {
             public void m1() {
                 System.out.println("使用了m1方法");
             }
+
+            @Override
+            public void m2() {
+                System.out.println("使用了m2方法");
+            }
         };
         absAdapter.m1();
     }
